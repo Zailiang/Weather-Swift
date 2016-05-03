@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4149E41CB5F03D004366C9 /* NikeDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4149E31CB5F03D004366C9 /* NikeDemoSwiftTests.swift */; };
+		6B4149F21CB5FE22004366C9 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149EC1CB5FE22004366C9 /* Icon-40@2x.png */; };
+		6B4149F31CB5FE22004366C9 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149ED1CB5FE22004366C9 /* Icon-40@3x.png */; };
+		6B4149F41CB5FE22004366C9 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149EE1CB5FE22004366C9 /* Icon-60@2x.png */; };
+		6B4149F51CB5FE22004366C9 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149EF1CB5FE22004366C9 /* Icon-60@3x.png */; };
+		6B4149F61CB5FE22004366C9 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149F01CB5FE22004366C9 /* Icon-Small@2x.png */; };
+		6B4149F71CB5FE22004366C9 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149F11CB5FE22004366C9 /* Icon-Small@3x.png */; };
+		6B4149F91CB5FE28004366C9 /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149F81CB5FE28004366C9 /* wallpaper.png */; };
+		6B4149FD1CB5FE61004366C9 /* IntroductionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149FB1CB5FE61004366C9 /* IntroductionButton.png */; };
+		6B4149FE1CB5FE61004366C9 /* WeatherButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B4149FC1CB5FE61004366C9 /* WeatherButton.png */; };
+		6B414A001CB600ED004366C9 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4149FF1CB600ED004366C9 /* IntroViewController.swift */; };
+		6B92E9F01CB58092002EBBB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92E9EF1CB58092002EBBB1 /* AppDelegate.swift */; };
+		6B92E9F21CB58092002EBBB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92E9F11CB58092002EBBB1 /* HomeViewController.swift */; };
+		6B92E9F51CB58092002EBBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B92E9F31CB58092002EBBB1 /* Main.storyboard */; };
+		6B92E9F71CB58092002EBBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B92E9F61CB58092002EBBB1 /* Assets.xcassets */; };
+		6B92E9FA1CB58092002EBBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B92E9F81CB58092002EBBB1 /* LaunchScreen.storyboard */; };
+		6B92EA021CB583D3002EBBB1 /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92EA011CB583D3002EBBB1 /* WeatherTableViewController.swift */; };
+		6BE704C81CB5A7720028CAE8 /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704B61CB5A7720028CAE8 /* 01d.png */; };
+		6BE704C91CB5A7720028CAE8 /* 01n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704B71CB5A7720028CAE8 /* 01n.png */; };
+		6BE704CA1CB5A7720028CAE8 /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704B81CB5A7720028CAE8 /* 02d.png */; };
+		6BE704CB1CB5A7720028CAE8 /* 02n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704B91CB5A7720028CAE8 /* 02n.png */; };
+		6BE704CC1CB5A7720028CAE8 /* 03d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BA1CB5A7720028CAE8 /* 03d.png */; };
+		6BE704CD1CB5A7720028CAE8 /* 03n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BB1CB5A7720028CAE8 /* 03n.png */; };
+		6BE704CE1CB5A7720028CAE8 /* 04d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BC1CB5A7720028CAE8 /* 04d.png */; };
+		6BE704CF1CB5A7720028CAE8 /* 04n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BD1CB5A7720028CAE8 /* 04n.png */; };
+		6BE704D01CB5A7720028CAE8 /* 09d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BE1CB5A7720028CAE8 /* 09d.png */; };
+		6BE704D11CB5A7720028CAE8 /* 09n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704BF1CB5A7720028CAE8 /* 09n.png */; };
+		6BE704D21CB5A7720028CAE8 /* 10d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C01CB5A7720028CAE8 /* 10d.png */; };
+		6BE704D31CB5A7720028CAE8 /* 10n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C11CB5A7720028CAE8 /* 10n.png */; };
+		6BE704D41CB5A7720028CAE8 /* 11d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C21CB5A7720028CAE8 /* 11d.png */; };
+		6BE704D51CB5A7720028CAE8 /* 11n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C31CB5A7720028CAE8 /* 11n.png */; };
+		6BE704D61CB5A7720028CAE8 /* 13d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C41CB5A7720028CAE8 /* 13d.png */; };
+		6BE704D71CB5A7720028CAE8 /* 13n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C51CB5A7720028CAE8 /* 13n.png */; };
+		6BE704D81CB5A7720028CAE8 /* 50d.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C61CB5A7720028CAE8 /* 50d.png */; };
+		6BE704D91CB5A7720028CAE8 /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE704C71CB5A7720028CAE8 /* 50n.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B4149E61CB5F03D004366C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B92E9E41CB58091002EBBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B92E9EB1CB58091002EBBB1;
+			remoteInfo = NikeDemoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B4149E11CB5F03D004366C9 /* NikeDemoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeDemoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4149E31CB5F03D004366C9 /* NikeDemoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeDemoSwiftTests.swift; sourceTree = "<group>"; };
+		6B4149E51CB5F03D004366C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4149EC1CB5FE22004366C9 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "ios/Icon-40@2x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149ED1CB5FE22004366C9 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "ios/Icon-40@3x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149EE1CB5FE22004366C9 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "ios/Icon-60@2x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149EF1CB5FE22004366C9 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "ios/Icon-60@3x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149F01CB5FE22004366C9 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "ios/Icon-Small@2x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149F11CB5FE22004366C9 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "ios/Icon-Small@3x.png"; sourceTree = SOURCE_ROOT; };
+		6B4149F81CB5FE28004366C9 /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = SOURCE_ROOT; };
+		6B4149FB1CB5FE61004366C9 /* IntroductionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IntroductionButton.png; path = "button images/IntroductionButton.png"; sourceTree = SOURCE_ROOT; };
+		6B4149FC1CB5FE61004366C9 /* WeatherButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeatherButton.png; path = "button images/WeatherButton.png"; sourceTree = SOURCE_ROOT; };
+		6B4149FF1CB600ED004366C9 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6B92E9EC1CB58091002EBBB1 /* NikeDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B92E9EF1CB58092002EBBB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B92E9F11CB58092002EBBB1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B92E9F41CB58092002EBBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B92E9F61CB58092002EBBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B92E9F91CB58092002EBBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B92E9FB1CB58092002EBBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B92EA011CB583D3002EBBB1 /* WeatherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
+		6BE704B61CB5A7720028CAE8 /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01d.png; path = weatherIcons/01d.png; sourceTree = SOURCE_ROOT; };
+		6BE704B71CB5A7720028CAE8 /* 01n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01n.png; path = weatherIcons/01n.png; sourceTree = SOURCE_ROOT; };
+		6BE704B81CB5A7720028CAE8 /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02d.png; path = weatherIcons/02d.png; sourceTree = SOURCE_ROOT; };
+		6BE704B91CB5A7720028CAE8 /* 02n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02n.png; path = weatherIcons/02n.png; sourceTree = SOURCE_ROOT; };
+		6BE704BA1CB5A7720028CAE8 /* 03d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03d.png; path = weatherIcons/03d.png; sourceTree = SOURCE_ROOT; };
+		6BE704BB1CB5A7720028CAE8 /* 03n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03n.png; path = weatherIcons/03n.png; sourceTree = SOURCE_ROOT; };
+		6BE704BC1CB5A7720028CAE8 /* 04d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04d.png; path = weatherIcons/04d.png; sourceTree = SOURCE_ROOT; };
+		6BE704BD1CB5A7720028CAE8 /* 04n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04n.png; path = weatherIcons/04n.png; sourceTree = SOURCE_ROOT; };
+		6BE704BE1CB5A7720028CAE8 /* 09d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09d.png; path = weatherIcons/09d.png; sourceTree = SOURCE_ROOT; };
+		6BE704BF1CB5A7720028CAE8 /* 09n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09n.png; path = weatherIcons/09n.png; sourceTree = SOURCE_ROOT; };
+		6BE704C01CB5A7720028CAE8 /* 10d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10d.png; path = weatherIcons/10d.png; sourceTree = SOURCE_ROOT; };
+		6BE704C11CB5A7720028CAE8 /* 10n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10n.png; path = weatherIcons/10n.png; sourceTree = SOURCE_ROOT; };
+		6BE704C21CB5A7720028CAE8 /* 11d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11d.png; path = weatherIcons/11d.png; sourceTree = SOURCE_ROOT; };
+		6BE704C31CB5A7720028CAE8 /* 11n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11n.png; path = weatherIcons/11n.png; sourceTree = SOURCE_ROOT; };
+		6BE704C41CB5A7720028CAE8 /* 13d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13d.png; path = weatherIcons/13d.png; sourceTree = SOURCE_ROOT; };
+		6BE704C51CB5A7720028CAE8 /* 13n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13n.png; path = weatherIcons/13n.png; sourceTree = SOURCE_ROOT; };
+		6BE704C61CB5A7720028CAE8 /* 50d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 50d.png; path = weatherIcons/50d.png; sourceTree = SOURCE_ROOT; };
+		6BE704C71CB5A7720028CAE8 /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 50n.png; path = weatherIcons/50n.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4149DE1CB5F03D004366C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B92E9E91CB58091002EBBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4149E21CB5F03D004366C9 /* NikeDemoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B4149E31CB5F03D004366C9 /* NikeDemoSwiftTests.swift */,
+				6B4149E51CB5F03D004366C9 /* Info.plist */,
+			);
+			path = NikeDemoSwiftTests;
+			sourceTree = "<group>";
+		};
+		6B4149EB1CB5FDB6004366C9 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				6B4149EC1CB5FE22004366C9 /* Icon-40@2x.png */,
+				6B4149ED1CB5FE22004366C9 /* Icon-40@3x.png */,
+				6B4149EE1CB5FE22004366C9 /* Icon-60@2x.png */,
+				6B4149EF1CB5FE22004366C9 /* Icon-60@3x.png */,
+				6B4149F01CB5FE22004366C9 /* Icon-Small@2x.png */,
+				6B4149F11CB5FE22004366C9 /* Icon-Small@3x.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
+		6B4149FA1CB5FE3B004366C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6B4149F81CB5FE28004366C9 /* wallpaper.png */,
+				6B4149FB1CB5FE61004366C9 /* IntroductionButton.png */,
+				6B4149FC1CB5FE61004366C9 /* WeatherButton.png */,
+				6BE704B51CB5A7630028CAE8 /* weatherIcons */,
+				6B4149EB1CB5FDB6004366C9 /* AppIcons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6B92E9E31CB58091002EBBB1 = {
+			isa = PBXGroup;
+			children = (
+				6B92E9EE1CB58092002EBBB1 /* NikeDemoSwift */,
+				6B4149E21CB5F03D004366C9 /* NikeDemoSwiftTests */,
+				6B92E9ED1CB58091002EBBB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B92E9ED1CB58091002EBBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B92E9EC1CB58091002EBBB1 /* NikeDemoSwift.app */,
+				6B4149E11CB5F03D004366C9 /* NikeDemoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B92E9EE1CB58092002EBBB1 /* NikeDemoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6B92E9EF1CB58092002EBBB1 /* AppDelegate.swift */,
+				6B92E9F11CB58092002EBBB1 /* HomeViewController.swift */,
+				6B92EA011CB583D3002EBBB1 /* WeatherTableViewController.swift */,
+				6B4149FF1CB600ED004366C9 /* IntroViewController.swift */,
+				6B92E9F31CB58092002EBBB1 /* Main.storyboard */,
+				6B92E9F61CB58092002EBBB1 /* Assets.xcassets */,
+				6B92E9F81CB58092002EBBB1 /* LaunchScreen.storyboard */,
+				6B92E9FB1CB58092002EBBB1 /* Info.plist */,
+				6B4149FA1CB5FE3B004366C9 /* Images */,
+			);
+			name = NikeDemoSwift;
+			path = "Nike-demo-Swift";
+			sourceTree = "<group>";
+		};
+		6BE704B51CB5A7630028CAE8 /* weatherIcons */ = {
+			isa = PBXGroup;
+			children = (
+				6BE704B61CB5A7720028CAE8 /* 01d.png */,
+				6BE704B71CB5A7720028CAE8 /* 01n.png */,
+				6BE704B81CB5A7720028CAE8 /* 02d.png */,
+				6BE704B91CB5A7720028CAE8 /* 02n.png */,
+				6BE704BA1CB5A7720028CAE8 /* 03d.png */,
+				6BE704BB1CB5A7720028CAE8 /* 03n.png */,
+				6BE704BC1CB5A7720028CAE8 /* 04d.png */,
+				6BE704BD1CB5A7720028CAE8 /* 04n.png */,
+				6BE704BE1CB5A7720028CAE8 /* 09d.png */,
+				6BE704BF1CB5A7720028CAE8 /* 09n.png */,
+				6BE704C01CB5A7720028CAE8 /* 10d.png */,
+				6BE704C11CB5A7720028CAE8 /* 10n.png */,
+				6BE704C21CB5A7720028CAE8 /* 11d.png */,
+				6BE704C31CB5A7720028CAE8 /* 11n.png */,
+				6BE704C41CB5A7720028CAE8 /* 13d.png */,
+				6BE704C51CB5A7720028CAE8 /* 13n.png */,
+				6BE704C61CB5A7720028CAE8 /* 50d.png */,
+				6BE704C71CB5A7720028CAE8 /* 50n.png */,
+			);
+			name = weatherIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4149E01CB5F03D004366C9 /* NikeDemoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4149E81CB5F03D004366C9 /* Build configuration list for PBXNativeTarget "NikeDemoSwiftTests" */;
+			buildPhases = (
+				6B4149DD1CB5F03D004366C9 /* Sources */,
+				6B4149DE1CB5F03D004366C9 /* Frameworks */,
+				6B4149DF1CB5F03D004366C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4149E71CB5F03D004366C9 /* PBXTargetDependency */,
+			);
+			name = NikeDemoSwiftTests;
+			productName = NikeDemoSwiftTests;
+			productReference = 6B4149E11CB5F03D004366C9 /* NikeDemoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B92E9EB1CB58091002EBBB1 /* NikeDemoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B92E9FE1CB58092002EBBB1 /* Build configuration list for PBXNativeTarget "NikeDemoSwift" */;
+			buildPhases = (
+				6B92E9E81CB58091002EBBB1 /* Sources */,
+				6B92E9E91CB58091002EBBB1 /* Frameworks */,
+				6B92E9EA1CB58091002EBBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikeDemoSwift;
+			productName = "Nike-demo-Swift";
+			productReference = 6B92E9EC1CB58091002EBBB1 /* NikeDemoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B92E9E41CB58091002EBBB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xiaodan Wang";
+				TargetAttributes = {
+					6B4149E01CB5F03D004366C9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6B92E9EB1CB58091002EBBB1;
+					};
+					6B92E9EB1CB58091002EBBB1 = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6B92E9E71CB58091002EBBB1 /* Build configuration list for PBXProject "NikeDemoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B92E9E31CB58091002EBBB1;
+			productRefGroup = 6B92E9ED1CB58091002EBBB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B92E9EB1CB58091002EBBB1 /* NikeDemoSwift */,
+				6B4149E01CB5F03D004366C9 /* NikeDemoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4149DF1CB5F03D004366C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B92E9EA1CB58091002EBBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4149FE1CB5FE61004366C9 /* WeatherButton.png in Resources */,
+				6B4149F91CB5FE28004366C9 /* wallpaper.png in Resources */,
+				6BE704D71CB5A7720028CAE8 /* 13n.png in Resources */,
+				6B4149F51CB5FE22004366C9 /* Icon-60@3x.png in Resources */,
+				6BE704D41CB5A7720028CAE8 /* 11d.png in Resources */,
+				6BE704CE1CB5A7720028CAE8 /* 04d.png in Resources */,
+				6BE704D81CB5A7720028CAE8 /* 50d.png in Resources */,
+				6B4149F61CB5FE22004366C9 /* Icon-Small@2x.png in Resources */,
+				6BE704CA1CB5A7720028CAE8 /* 02d.png in Resources */,
+				6BE704CC1CB5A7720028CAE8 /* 03d.png in Resources */,
+				6BE704D91CB5A7720028CAE8 /* 50n.png in Resources */,
+				6BE704D01CB5A7720028CAE8 /* 09d.png in Resources */,
+				6B92E9FA1CB58092002EBBB1 /* LaunchScreen.storyboard in Resources */,
+				6BE704CD1CB5A7720028CAE8 /* 03n.png in Resources */,
+				6B4149F71CB5FE22004366C9 /* Icon-Small@3x.png in Resources */,
+				6BE704CB1CB5A7720028CAE8 /* 02n.png in Resources */,
+				6BE704D51CB5A7720028CAE8 /* 11n.png in Resources */,
+				6BE704C91CB5A7720028CAE8 /* 01n.png in Resources */,
+				6BE704D11CB5A7720028CAE8 /* 09n.png in Resources */,
+				6BE704D31CB5A7720028CAE8 /* 10n.png in Resources */,
+				6B4149FD1CB5FE61004366C9 /* IntroductionButton.png in Resources */,
+				6B4149F21CB5FE22004366C9 /* Icon-40@2x.png in Resources */,
+				6BE704D61CB5A7720028CAE8 /* 13d.png in Resources */,
+				6B92E9F71CB58092002EBBB1 /* Assets.xcassets in Resources */,
+				6B92E9F51CB58092002EBBB1 /* Main.storyboard in Resources */,
+				6B4149F31CB5FE22004366C9 /* Icon-40@3x.png in Resources */,
+				6BE704D21CB5A7720028CAE8 /* 10d.png in Resources */,
+				6BE704C81CB5A7720028CAE8 /* 01d.png in Resources */,
+				6BE704CF1CB5A7720028CAE8 /* 04n.png in Resources */,
+				6B4149F41CB5FE22004366C9 /* Icon-60@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4149DD1CB5F03D004366C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4149E41CB5F03D004366C9 /* NikeDemoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B92E9E81CB58091002EBBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B92E9F21CB58092002EBBB1 /* HomeViewController.swift in Sources */,
+				6B92EA021CB583D3002EBBB1 /* WeatherTableViewController.swift in Sources */,
+				6B92E9F01CB58092002EBBB1 /* AppDelegate.swift in Sources */,
+				6B414A001CB600ED004366C9 /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B4149E71CB5F03D004366C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B92E9EB1CB58091002EBBB1 /* NikeDemoSwift */;
+			targetProxy = 6B4149E61CB5F03D004366C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B92E9F31CB58092002EBBB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B92E9F41CB58092002EBBB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B92E9F81CB58092002EBBB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B92E9F91CB58092002EBBB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4149E91CB5F03D004366C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NikeDemoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RJT.NikeDemoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeDemoSwift.app/NikeDemoSwift";
+			};
+			name = Debug;
+		};
+		6B4149EA1CB5F03D004366C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NikeDemoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RJT.NikeDemoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeDemoSwift.app/NikeDemoSwift";
+			};
+			name = Release;
+		};
+		6B92E9FC1CB58092002EBBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B92E9FD1CB58092002EBBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B92E9FF1CB58092002EBBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nike-demo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RJT.Nike-demo-Swift";
+				PRODUCT_NAME = NikeDemoSwift;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6B92EA001CB58092002EBBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nike-demo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RJT.Nike-demo-Swift";
+				PRODUCT_NAME = NikeDemoSwift;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4149E81CB5F03D004366C9 /* Build configuration list for PBXNativeTarget "NikeDemoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4149E91CB5F03D004366C9 /* Debug */,
+				6B4149EA1CB5F03D004366C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B92E9E71CB58091002EBBB1 /* Build configuration list for PBXProject "NikeDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B92E9FC1CB58092002EBBB1 /* Debug */,
+				6B92E9FD1CB58092002EBBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B92E9FE1CB58092002EBBB1 /* Build configuration list for PBXNativeTarget "NikeDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B92E9FF1CB58092002EBBB1 /* Debug */,
+				6B92EA001CB58092002EBBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B92E9E41CB58091002EBBB1 /* Project object */;
+}
